@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="20.217">
+    <testcase classname="Search with n number of products" name="_2" time="0.15">
+        <system-out><![CDATA[Given click the login link..................................................passed
+When provide Admin and admin123 in the textbox..............................passed
+And click the login button..................................................passed
+Then verify the status......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search with n number of products" name="_3" time="0.016">
+        <system-out><![CDATA[Given click the login link..................................................passed
+When provide User1 and AAAAAA in the textbox................................passed
+And click the login button..................................................passed
+Then verify the status......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search with n number of products" name="_4" time="0.025">
+        <system-out><![CDATA[Given click the login link..................................................passed
+When provide User2 and XCZVHG in the textbox................................passed
+And click the login button..................................................passed
+Then verify the status......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search with n number of products" name="_5" time="0.018">
+        <system-out><![CDATA[Given click the login link..................................................passed
+When provide User3 and ywuw378e in the textbox..............................passed
+And click the login button..................................................passed
+Then verify the status......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search with n number of products" name="_6" time="0.01">
+        <system-out><![CDATA[Given click the login link..................................................passed
+When provide User4 and yy3w7hheRY in the textbox............................passed
+And click the login button..................................................passed
+Then verify the status......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google search functionality" name="validating the search functionality in google with Laptop as search item" time="11.398">
+        <system-out><![CDATA[Given open an chrome browser................................................passed
+And load the google URL.....................................................passed
+When in search text box provide laptop as search item and press ENTER key...passed
+And take snapshot of the search result......................................passed
+Then validate the outcome...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google search functionality" name="validating the search functionality in google with dynamic search item" time="7.494">
+        <system-out><![CDATA[Given open an chrome browser................................................passed
+And load the google URL.....................................................passed
+When in search text box provide "Iphone phones" as search item and press ENTER key.passed
+And take snapshot of the search result......................................passed
+Then validate the outcome...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="validating gmail in google web application" name="Validating with valid username and Valid password in Gmail" time="0.052">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given open an browser.......................................................pending
+And load the google Url.....................................................skipped
+When click gmail link.......................................................skipped
+Then verify the gmail dashboard.............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="validating gmail in google web application" name="Validating with Invalid username and Valid password in Gmail" time="0.045">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given open an browser.......................................................pending
+And load the google Url.....................................................skipped
+When click gmail link.......................................................skipped
+And in login provide Invalid username and valid password and click login button.skipped
+Then verify the gmail dashboard.............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="validating gmail in google web application" name="Validating with Invalid username and InValid password in Gmail" time="0.065">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given open an browser.......................................................pending
+And load the google Url.....................................................skipped
+When click gmail link.......................................................skipped
+And in login provide Invalid username and Invalid password and click login button.skipped
+Then verify the gmail dashboard.............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="validating gmail in google web application" name="Validating with Blank username and Valid password in Gmail" time="0.053">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given open an browser.......................................................pending
+And load the google Url.....................................................skipped
+When click gmail link.......................................................skipped
+And in login provide Invalid username and valid password and click login button.skipped
+Then verify the gmail dashboard.............................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
